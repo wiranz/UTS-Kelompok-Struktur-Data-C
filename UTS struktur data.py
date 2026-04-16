@@ -39,7 +39,7 @@ class BankQueue:
             print("\n[INFO] Ruang tunggu saat ini kosong.")
             return
         
-          print("\n" + "="*65)
+        print("\n" + "="*65)
         print(f"| {'NO':<3} | {'NAMA NASABAH':<25} | {'JENIS LAYANAN':<27} |")
         print("="*65)
         
