@@ -67,3 +67,35 @@ if __name__ == "__main__":
         
         if pilihan == '1':
             nama_baru = input("Masukkan nama Nasabah: ")
+
+            
+
+            print("\nSilakan Pilih Layanan:")
+            print("A. Pembuatan Kartu Baru")
+            print("B. Keluhan / Pengaduan")
+            print("C. Pengajuan Pinjaman (Kredit)")
+            opsi_layanan = input("Pilih (A/B/C): ").upper()
+            
+            if opsi_layanan == 'A':
+                jenis_layanan = "Pembuatan Kartu Baru"
+            elif opsi_layanan == 'B':
+                jenis_layanan = "Keluhan / Pengaduan"
+            elif opsi_layanan == 'C':
+                jenis_layanan = "Pengajuan Pinjaman (Kredit)"
+            else:
+                print("\n[ERROR] Pilihan layanan tidak valid. Data nasabah tidak ditambahkan.")
+                continue
+                
+            sistem_bank.enqueue(nama_baru, jenis_layanan)
+            
+        elif pilihan == '2':
+            sistem_bank.dequeue()
+        elif pilihan == '3':
+            sistem_bank.peek()
+        elif pilihan == '4':
+            sistem_bank.display()
+        elif pilihan == '5':
+            print("\nTerima kasih. Sistem Antrian ditutup.")
+            break
+        else:
+            print("\n[ERROR] Pilihan tidak valid. Silakan ketik angka 1-5.")
