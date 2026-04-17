@@ -15,13 +15,15 @@
 
 ## 1. Rumusan Masalah dan Solusi
 
-**Rumusan Masalah:**
+**Rumusan Masalah :**
+
 Berdasarkan studi kasus sistem antrian pelayanan *Customer Service* (CS) di bank, rumusan masalah dalam proyek ini adalah :
 1. Bagaimana konsep struktur data *Queue* dapat digunakan untuk mengelola antrian pelanggan bank dengan adil berdasarkan jenis layanannya?
 2. Bagaimana implementasi menggunakan *Array* dapat meningkatkan efisiensi pendataan nasabah dibandingkan pencatatan manual?
 3. Bagaimana sistem yang dibuat ini mampu menyelesaikan permasalahan nyata terkait penumpukan pelanggan di ruang tunggu bank?
 
-**Solusi yang Ditawarkan:**
+**Solusi yang Ditawarkan :**
+
 Solusi yang ditawarkan adalah sebuah program simulasi antrian digital berbasis antarmuka teks (CLI). Sistem ini menggunakan struktur data *Queue* dengan penyimpanan berbasis *Array* (*List* pada Python) untuk menampung data nama dan jenis keperluan nasabah secara dinamis. Sistem memastikan petugas CS memanggil nasabah murni berdasarkan urutan kedatangan pertama, sehingga memberikan transparansi tata urutan pelayanan di ruang tunggu bank.
 
 ---
