@@ -96,3 +96,6 @@ Berdasarkan perancangan dan implementasi yang telah dilakukan, ditarik kesimpula
 2. Apakah sistem berjalan sesuai teori? Ya, sistem ini berjalan 100% mematuhi prinsip teori struktur data FIFO (First In First Out). Penggunaan algoritma manipulasi array pop(0) secara murni pada fungsi dequeue() menjamin tidak ada tumpang tindih urutan; nasabah yang mengambil tiket paling awal akan terhapus dan terlayani lebih dulu.
 
 3. Bagaimana manfaat Queue pada kasus tersebut? Pada kasus nyata di loket Customer Service bank, penggunaan struktur data Queue memberikan manfaat vital dalam menertibkan ruang tunggu dan memberikan transparansi urutan (melalui fungsi display()). Hal ini mencegah kebingungan, menghindari konflik antar nasabah yang berebut giliran, dan membantu CS memonitor beban kerja secara interaktif.
+
+## 5. Power Point Presentasi
+https://canva.link/jqtwkl91fxein8z
